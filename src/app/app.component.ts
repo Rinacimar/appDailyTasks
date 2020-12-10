@@ -24,17 +24,16 @@ export class AppComponent implements OnInit {
     },
     {
       title: 'Lista de Compras',
-      url: '/lista de compras',
+      url: '/lista-de-compras',
       icon: 'list'
     },
     {
       title: 'Valor da Moeda',
-      url: '/valor da moeda',
+      url: '/valor-da-moeda',
       icon: 'wallet'
     }
     
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
   constructor(
     private platform: Platform,
