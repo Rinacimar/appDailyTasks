@@ -13,19 +13,24 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public appPages = [
     {
-      title: 'Previsão do Tempo',
-      url: '/folder/Previsão Do Tempo',
+      title: 'Tela Inicial',
+      url: '/tela-inicial',
+      icon: 'home'
+    },
+    {
+      title: 'Clima',
+      url: '/clima',
       icon: 'cloud'
     },
     {
       title: 'Lista de Compras',
-      url: '',
+      url: '/lista de compras',
       icon: 'list'
     },
     {
-      title: 'Poder de Moedas',
-      url: '',
-      icon: 'coin'
+      title: 'Valor da Moeda',
+      url: '/valor da moeda',
+      icon: 'wallet'
     }
     
   ];
@@ -47,7 +52,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    const path = window.location.pathname.split('folder/')[1];
+    const path = window.location.pathname.split('clima/')[1];
     if (path !== undefined) {
       this.selectedIndex = this.appPages.findIndex(page => page.title.toLowerCase() === path.toLowerCase());
     }
