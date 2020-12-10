@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
       icon: 'home'
     },
     {
-      title: 'Clima',
+      title: 'Clima2',
       url: '/clima',
       icon: 'cloud'
     },
