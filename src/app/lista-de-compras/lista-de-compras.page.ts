@@ -8,8 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class ListaDeComprasPage {
   
   public form = [
-    { val: 'Pepperoni', isChecked: true },
-    { val: 'Sausage', isChecked: false },
-    { val: 'Mushroom', isChecked: false }
+    { val: 'Alface', isChecked: false },
+    { val: 'Cenoura', isChecked: false },
+    { val: 'Tomate', isChecked: false },
+    { val: 'Arroz', isChecked: false },
+    { val: 'Feijão', isChecked: false },
+    { val: 'Óleo', isChecked: false },
+    { val: 'Azeite', isChecked: false },
+    { val: 'Manteiga', isChecked: false },
+    { val: 'Queijo', isChecked: false },
+    { val: 'Papel Higienico', isChecked: false },
+    { val: 'Detergente', isChecked: false }
   ];  
 }

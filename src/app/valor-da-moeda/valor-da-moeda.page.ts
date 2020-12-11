@@ -5,11 +5,17 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './valor-da-moeda.page.html',
   styleUrls: ['./valor-da-moeda.page.scss'],
 })
-export class ValorDaMoedaPage implements OnInit {
+export class ValorDaMoedaPage{
 
-  constructor() { }
-
-  ngOnInit() {
+  public form = [
+    { val: 'Dolar', },
+    { val: 'Euro'},
+    { val: 'Libra'}
+  ];  
+  
+  public cotação(){
+    
+    var moeda;
+  
   }
-
 }
