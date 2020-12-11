@@ -4,26 +4,17 @@ ion-menu ion-content {
 
 ion-menu.md ion-content {
   --padding-start: 25px;
-  --padding-end: 8px;
+  --padding-end: 25px;
   --padding-top: 10px;
   --padding-bottom: 20px;
 }
 
 ion-menu.md ion-list {
-  padding: 20px 0;
-}
-
-ion-menu.md ion-note {
-  margin-bottom: 7px;
-}
-
-ion-menu.md ion-list-header,
-ion-menu.md ion-note {
-  padding-left: 5px;
+  padding: 15px 0;
 }
 
 ion-menu.md ion-item {
-  --padding-start: 10px;
+  --padding-start: 28px;
   --padding-end: 10px;
   border-radius: 4px;
 }
@@ -37,7 +28,7 @@ ion-menu.md ion-item.selected ion-icon {
 }
 
 ion-menu.md ion-item ion-icon {
-  color: #616e7e;
+  color: #0033CC;
 }
 
 ion-menu.md ion-item ion-label {
@@ -50,11 +41,6 @@ ion-menu.ios ion-content {
 
 ion-menu.ios ion-list {
   padding: 20px 0 0 0;
-}
-
-ion-menu.ios ion-note {
-  line-height: 24px;
-  margin-bottom: 20px;
 }
 
 ion-menu.ios ion-item {
@@ -76,14 +62,9 @@ ion-menu.ios ion-list#labels-list ion-list-header {
   margin-bottom: 8px;
 }
 
-ion-menu.ios ion-list-header,
-ion-menu.ios ion-note {
+ion-menu.ios ion-list-header{
   padding-left: 16px;
   padding-right: 16px;
-}
-
-ion-menu.ios ion-note {
-  margin-bottom: 8px;
 }
 
 ion-note {
@@ -100,13 +81,4 @@ ion-item.selected {
 ion-img {
   height: 70px;
   position: absolute;
-}
-
-ion-list-header{
-  margin-left: 95px;
-  font-size: large;
-}
-
-ion-note{
-  margin-left: 95px;
 }
